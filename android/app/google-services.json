@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "288130314922",
+    "project_id": "maquininha-b07f0",
+    "storage_bucket": "maquininha-b07f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288130314922:android:e648c80a6ff648e83816d3",
+        "android_client_info": {
+          "package_name": "com.mycompany.finalm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD-yn6LysXnEA2kOEG5zum8K4tHF1R23c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
