@@ -1,18 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Theme applied to the Android Window while the process is starting when the OS's Dark Mode setting is off -->
+    <!-- Tema aplicado à janela do Android enquanto o processo está iniciando quando a configuração de Modo Escuro do SO está desativada -->
     <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
-        <!-- Show a splash screen on the activity. Automatically removed when
-             Flutter draws its first frame -->
+        <!-- Mostrar uma tela de splash na atividade. Automaticamente removida quando
+             Flutter desenha seu primeiro frame -->
         <item name="android:windowBackground">@drawable/launch_background</item>
     </style>
-    <!-- Theme applied to the Android Window as soon as the process has started.
-         This theme determines the color of the Android Window while your
-         Flutter UI initializes, as well as behind your Flutter UI while its
-         running.
+    
+    <!-- Tema aplicado à janela do Android assim que o processo foi iniciado.
+         Este tema determina a cor da janela do Android enquanto sua
+         UI Flutter é inicializada, assim como atrás da sua UI Flutter enquanto ela
+         está rodando.
          
-         This Theme is only used starting with V2 of Flutter's Android embedding. -->
+         Este tema é usado apenas a partir da V2 do Android embedding do Flutter. -->
     <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
         <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+    
+    <!-- Tema base do aplicativo -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize seu tema aqui -->
+    </style>
+
+    <style name="AppThemeWithoutBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize seu tema aqui -->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="listItem">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/line_border</item>
+        <item name="android:minHeight">?android:attr/listPreferredItemHeightSmall</item>
+        <item name="android:paddingEnd">?android:attr/listPreferredItemPaddingEnd</item>
+        <item name="android:paddingStart">?android:attr/listPreferredItemPaddingStart</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceListItemSmall</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
     </style>
 </resources>
