@@ -537,9 +537,9 @@
     },
     {
       "name": "shared_preferences_platform_interface",
-      "rootUri": "file:///C:/Users/willi/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_platform_interface-2.3.2",
+      "rootUri": "file:///C:/Users/willi/AppData/Local/Pub/Cache/hosted/pub.dev/shared_preferences_platform_interface-2.4.0",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.2"
     },
     {
       "name": "shared_preferences_web",
@@ -752,7 +752,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-07-18T18:15:52.439819Z",
+  "generated": "2024-07-18T18:50:10.091584Z",
   "generator": "pub",
   "generatorVersion": "3.4.4",
   "flutterRoot": "file:///C:/ERP_SISTEMAS/flutter",
