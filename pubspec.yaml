@@ -87,7 +87,6 @@ dependencies:
 
   crypto: any
   http_parser: any
-  flutter_web_plugins: any
 dependency_overrides:
   http: 1.2.1
   uuid: ^4.0.0
