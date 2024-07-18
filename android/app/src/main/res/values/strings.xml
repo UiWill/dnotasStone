@@ -84,4 +84,7 @@
     <string name="detect_card">Detectar cartão</string>
     <string name="read_block">Ler bloco</string>
     <string name="write_block">Escrever no bloco</string>
+
+    <!-- Deeplink -->
+    <string name="return_scheme">flutterdeeplinkdemo</string>
 </resources>

@@ -1,3 +1,4 @@
+# Arquivos específicos do seu projeto
 gradle-wrapper.jar
 /.gradle
 /captures/
@@ -6,13 +7,31 @@ gradle-wrapper.jar
 /local.properties
 GeneratedPluginRegistrant.java
 
-# Remember to never publicly share your keystore.
-# See https://flutter.dev/docs/deployment/android#reference-the-keystore-from-the-app
+# Lembre-se de nunca compartilhar publicamente seu keystore.
+# Veja https://flutter.dev/docs/deployment/android#reference-the-keystore-from-the-app
 key.properties
 
-.idea
+# Exclusões do SDK da Stone
+*.iml
+.gradle
+/local.properties
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
 .DS_Store
 /build
+*/build
+/captures
+.externalNativeBuild
+.idea
+gradle/
+*.jks
+/*/*-keystore.properties
+*.pro
+
+# Exclusões adicionais do seu projeto
+.idea
+.DS_Store
 *.iml
 gertec/gertec-keystore.properties
 gertec/*.jks
