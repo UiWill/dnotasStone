@@ -663,7 +663,7 @@
     },
     {
       "name": "url_launcher_android",
-      "rootUri": "file:///C:/Users/willi/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_android-6.3.4",
+      "rootUri": "file:///C:/Users/willi/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_android-6.3.5",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
@@ -752,7 +752,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-07-19T19:06:32.861633Z",
+  "generated": "2024-07-19T19:19:03.892789Z",
   "generator": "pub",
   "generatorVersion": "3.4.4",
   "flutterRoot": "file:///C:/ERP_SISTEMAS/flutter",
