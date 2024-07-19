@@ -1,18 +1,11 @@
-// Copyright 2014 The Flutter Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
 // Certifique-se de que o bloco pluginManagement vem antes de qualquer outro código
 pluginManagement {
-    includeBuild("$flutterSdkPath/packages/flutter_tools/gradle")
-
     repositories {
         google()
         mavenCentral()
         gradlePluginPortal()
     }
 }
-
 
 // Defina o caminho do SDK Flutter
 def localPropertiesFile = new File(rootProject.projectDir, "local.properties")
@@ -34,3 +27,4 @@ plugins {
 }
 
 include ':app'
+include ':payment-deeplink'
