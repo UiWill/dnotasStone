@@ -103,6 +103,8 @@ class _MyAppState extends State<MyApp> {
 }
 
 class DeepLinkApp extends StatelessWidget {
+  const DeepLinkApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -111,13 +113,13 @@ class DeepLinkApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: DeepLinkHomePage(title: 'DeepLink Demo'),
+      home: const DeepLinkHomePage(title: 'DeepLink Demo'),
     );
   }
 }
 
 class DeepLinkHomePage extends StatefulWidget {
-  DeepLinkHomePage({Key? key, required this.title}) : super(key: key);
+  const DeepLinkHomePage({super.key, required this.title});
 
   final String title;
 
@@ -127,11 +129,11 @@ class DeepLinkHomePage extends StatefulWidget {
 
 class _DeepLinkHomePageState extends State<DeepLinkHomePage> {
   static const platformMethodChannel =
-      const MethodChannel("mainDeeplinkChannel");
+      MethodChannel("mainDeeplinkChannel");
   String deeplinkResult = "";
 
   Future<Null> _sendDeeplink() async {
-    String _message = "";
+    String message = "";
     try {
       int amount = 100;
       bool editableAmount = false; //true, false
@@ -151,10 +153,10 @@ class _DeepLinkHomePageState extends State<DeepLinkHomePage> {
         "returnScheme": returnScheme
       });
     } on PlatformException catch (e) {
-      _message = "Erro ao enviar deeplink: ${e.message}.";
+      message = "Erro ao enviar deeplink: ${e.message}.";
     }
     setState(() {
-      deeplinkResult = _message;
+      deeplinkResult = message;
     });
   }
 

@@ -4,7 +4,6 @@ import 'package:dnotas/main.dart' as app1; // Renomeando para evitar conflito de
 
 // Importações para o segundo teste
 import 'package:flutter/material.dart';
-import 'package:flutter_test/flutter_test.dart';
 
 
 
