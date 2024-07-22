@@ -26,5 +26,6 @@ plugins {
 
 apply from: "$flutterSdkPath/packages/flutter_tools/gradle/app_plugin_loader.gradle"
 
+rootProject.name = 'dnotas'
 include ':android:app' // Atualize esta linha para apontar para o caminho correto
 

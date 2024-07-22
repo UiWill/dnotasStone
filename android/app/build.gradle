@@ -83,3 +83,6 @@ dependencies {
     testImplementation "org.junit.jupiter:junit-jupiter-engine:5.7.1"
     testImplementation "org.junit.vintage:junit-vintage-engine:5.7.1"
 }
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
