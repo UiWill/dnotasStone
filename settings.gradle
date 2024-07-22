@@ -1,2 +1,3 @@
-include ':payment-deeplink'
-include ':app'
+rootProject.name = 'dnotas'
+
+include ':android:app'
